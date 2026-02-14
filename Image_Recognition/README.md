@@ -1,4 +1,4 @@
-'''# Face Recognition Photo Filter 📸
+## Face Recognition Photo Filter 📸
 
 A deep learning-based face recognition system to automatically filter and organize photos containing specific individuals from a large photo collection.
 
@@ -275,4 +275,5 @@ For questions or feedback, please open an issue or reach out via email.
 ---
 
 **Note**: This project was developed for educational purposes to understand face recognition and deep learning concepts. For production use, consider additional security and privacy measures.
+
 '''

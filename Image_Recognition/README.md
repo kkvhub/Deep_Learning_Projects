@@ -81,7 +81,7 @@ tqdm
 
 ## 📖 Usage
 
-### Option 1: Google Colab (Recommended)
+### Google Colab
 
 1. Open the notebook in Google Colab:
    - Upload `notebooks/face_recognition.ipynb` to Google Colab
@@ -96,22 +96,6 @@ tqdm
 5. Run all cells sequentially
 
 6. Check results in the `output/` folders
-
-### Option 2: Local Execution
-
-1. Set up folder structure:
-```python
-python setup_folders.py
-```
-
-2. Add your photos:
-   - Reference photos → `reference_faces/`
-   - Test photos → `dataset/sample_100/`
-
-3. Run the main script:
-```python
-python face_recognition_filter.py
-```
 
 ## ⚙️ Configuration
 
@@ -150,14 +134,6 @@ tolerance = 0.7
 - **Precision**: 95.8% (22 true positives / 23 classified as matched)
 - **Recall**: 91.7% (22 true positives / 24 actual photos with target)
 - **F1-Score**: 93.7%
-
-### Sample Results
-
-#### Matched Photos
-![Matched Sample](results/visualizations/matched_samples.png)
-
-#### Distance Distribution
-![Distance Distribution](results/visualizations/distance_distribution.png)
 
 ## 🔬 How It Works
 
@@ -236,7 +212,6 @@ Results show tolerance=0.6 with HOG model provides the best speed/accuracy trade
 
 ## 🔮 Future Improvements
 
-- [ ] Process full 5K+ image collection
 - [ ] Add support for multiple target persons
 - [ ] Implement real-time video processing
 - [ ] Add web interface for easier usage
@@ -277,3 +252,4 @@ For questions or feedback, please open an issue or reach out via email.
 **Note**: This project was developed for educational purposes to understand face recognition and deep learning concepts. For production use, consider additional security and privacy measures.
 
 '''
+
